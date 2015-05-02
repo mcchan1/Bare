@@ -53,7 +53,10 @@ Blist=<ul type="none" style="padding-left: 0"><li>{Secs}</ul>
 
 blist=<ul type="none" style="padding-left: 0"><li>{secs}</ul>
 
+Xref=Section {Xnum}
+
 /Note=backwards compatibility - please use 0.sec in future
+
 0.Sec={0.sec}
 
 0.sec=<b></b>
@@ -61,10 +64,6 @@ blist=<ul type="none" style="padding-left: 0"><li>{secs}</ul>
 90.Sec={90.sec}
 
 90.sec=<b></b>
-
-Doc.4.Xref={d-}Section 4{-d}
-
-Doc.5.Xref={d-}Section 5{-d}
 
 1.=[Bit/SubSec]
 
