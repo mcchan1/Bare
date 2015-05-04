@@ -8,7 +8,7 @@ include("header.php");
 <div class="container">
 <?php
 /* The length of the Missing Fields part of the text.*/
-$minDocLength = 10;
+$minDocLength = 101;
 
 $document = `perl parser.pl $path/$dir`;
 
@@ -38,7 +38,7 @@ if (strlen($document) > $minDocLength){
   echo "<div id='tabs'><ul><li><a href='#tab-render'>Document</a></li><li><a href='#tab-source'>Source</a></li><li><a href='#tab-edit'>Edit</a></li></ul><div id='tab-render'>" ;
   echo $document;}
 else {
-  echo "<div id='tabs'><ul><li><a href='#tab-source'>Source</a></li><li><a href='#tab-edit'>Modifier</a></li></ul><div id='tab-render'>" ;
+  echo "<div id='tabs'><ul><li><a href='#tab-source'>Source</a></li><li><a href='#tab-edit'>Edit</a></li></ul><div id='tab-render'>" ;
 
 }
 ?>
